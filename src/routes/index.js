@@ -10,7 +10,7 @@ const router = express.Router();
  */
 router.get('/', (req, res) => {
   res.json({
-    name: 'semantic-release-workshop-fix',
+    name: 'semantic-release-workshop',
     version: process.env.npm_package_version || '1.0.0',
     description: 'A Node.js + Express app showcasing semantic-release, conventional commits, and husky',
     routes: [
